@@ -1,3 +1,2 @@
 #!/bin/bash
-
-echo "this is LInux.sh file"
+echo "Hello this file in Kubernate Directory"
