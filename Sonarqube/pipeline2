@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+        stage("intigeration"){
+            steps{
+                sh 'echo "this is intigeration stage"'
+            }
+        }
+        stage("delivary"){
+            steps{
+                sh 'echo "this is delivary stage"'
+            }
+        }
+        stage("depoly"){
+            steps{
+                sh 'echo "this is deploy stage"'
+            }
+        }
+    }
+}
