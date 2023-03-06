@@ -1,0 +1,15 @@
+
+
+pipeline {
+    agent any
+    
+    stages {
+        stage('Find Master Server Details') {
+            steps {
+                sh 'hostname'
+                sh 'uname -a'
+                sh 'df -h'
+            }
+        }
+    }
+}
